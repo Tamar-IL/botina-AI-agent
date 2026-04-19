@@ -1,0 +1,1432 @@
+
+<!-- saved from url=(0042)https://botina-smart-a-499kq.landy-ai.com/ -->
+<html lang="he" dir="rtl" class="scroll-smooth" id="v9abfg"><head id="izitr4"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" id="6uds63">
+    <title id="d07lrd">בוטינה - סוכנת ה-AI לעסק שלך</title>
+    <meta name="description" content="העוזרת האישית שתמיד חלמת עליה עובדת סביב השעון, סוגרת פגישות ועונה ללקוחות 24/7." id="6m93tk">
+    <meta name="theme-color" content="#080816" id="5m4zgd">
+    <meta property="og:title" content="בוטינה - סוכנת ה-AI לעסק שלך" id="m4q9yx">
+    <meta property="og:description" content="שחרר את עצמך ממשימות שירות שוחקות ותן לבוטינה לנהל את הפניות והפגישות בעסק שלך." id="vdyf90">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com/" id="2lnim0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" id="s2t3en">
+    <link href="./בוטינה - סוכנת ה-AI לעסק שלך_files/css2" rel="stylesheet" id="k0kapr">
+    <script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/saved_resource" id="8373gc"></script>
+    
+    <script id="oepjft">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#080816',
+                            card: '#121226',
+                            cardHover: '#1a1a38',
+                            neonPink: '#FF007F',
+                            neonCyan: '#00F0FF',
+                            neonPurple: '#8A2BE2'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Assistant', 'sans-serif'],
+                        heading: ['Heebo', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'neon-pink': '0 0 25px -5px rgba(255, 0, 127, 0.6)',
+                        'neon-cyan': '0 0 25px -5px rgba(0, 240, 255, 0.6)',
+                        'neon-purple': '0 0 35px -5px rgba(138, 43, 226, 0.6)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style id="s38zpt">
+        body { background-color: #080816; color: #cbd5e1; }
+        .text-gradient {
+            background: linear-gradient(to right, #00F0FF, #FF007F);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .text-gradient-purple {
+            background: linear-gradient(to right, #FF007F, #8A2BE2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bg-gradient-primary {
+            background: linear-gradient(135deg, #FF007F, #8A2BE2);
+        }
+        .bg-gradient-card {
+            background: linear-gradient(180deg, rgba(18, 18, 38, 1) 0%, rgba(8, 8, 22, 1) 100%);
+        }
+        .neon-border {
+            position: relative;
+        }
+        .neon-border::before {
+            content: '';
+            position: absolute;
+            top: -1px; left: -1px; right: -1px; bottom: -1px;
+            background: linear-gradient(45deg, #00F0FF, #FF007F);
+            z-index: -1;
+            border-radius: inherit;
+            opacity: 0.5;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .group:hover .neon-border::before { opacity: 1; }
+        
+        /* Floating animation for objects */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0px); }
+        }
+        .animate-float { animation: float 8s ease-in-out infinite; }
+
+        /* Fade In Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-in-out;
+        }
+
+        /* Slide In animations */
+        @keyframes slideInRight {
+            from { 
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInLeft {
+            from { 
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        @keyframes slideInUp {
+            from { 
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .animate-slide-in-right { animation: slideInRight 0.7s ease-out; }
+        .animate-slide-in-left { animation: slideInLeft 0.7s ease-out; }
+        .animate-slide-in-up { animation: slideInUp 0.7s ease-out 0.1s both; }
+
+        /* Scale In animation */
+        @keyframes scaleIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .animate-scale-in { animation: scaleIn 0.5s ease-out; }
+
+
+
+        /* Shimmer Loading Animation */
+        @keyframes shimmer {
+            0% { background-position: -1000px 0; }
+            100% { background-position: 1000px 0; }
+        }
+        .animate-shimmer {
+            background: linear-gradient(
+                to right,
+                rgba(18, 18, 38, 0.5) 0%,
+                rgba(138, 43, 226, 0.1) 50%,
+                rgba(18, 18, 38, 0.5) 100%
+            );
+            background-size: 1000px 100%;
+            animation: shimmer 1.5s infinite;
+        }
+
+        /* Image Loading States */
+        img {
+            opacity: 0;
+            animation: fadeIn 0.5s ease-in-out forwards;
+        }
+        img.loaded {
+            opacity: 1;
+        }
+
+        /* Stagger animation for list items */
+        .animate-stagger > * {
+            animation: slideInUp 0.7s ease-out;
+        }
+        .animate-stagger > :nth-child(1) { animation-delay: 0s; }
+        .animate-stagger > :nth-child(2) { animation-delay: 0.08s; }
+        .animate-stagger > :nth-child(3) { animation-delay: 0.16s; }
+        .animate-stagger > :nth-child(4) { animation-delay: 0.24s; }
+        .animate-stagger > :nth-child(5) { animation-delay: 0.32s; }
+        .animate-stagger > :nth-child(6) { animation-delay: 0.4s; }
+
+        /* Glow Animation */
+        @keyframes glow {
+            0%, 100% {
+                box-shadow: 0 0 5px rgba(138, 43, 226, 0.2);
+            }
+            50% {
+                box-shadow: 0 0 15px rgba(138, 43, 226, 0.5);
+            }
+        }
+        .animate-glow { animation: glow 3s ease-in-out infinite; }
+
+        /* Flip Animation */
+        @keyframes flipIn {
+            0% {
+                opacity: 0;
+                transform: rotateY(90deg);
+            }
+            100% {
+                opacity: 1;
+                transform: rotateY(0deg);
+            }
+        }
+        .animate-flip-in { animation: flipIn 0.8s ease-out; perspective: 1000px; }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Assistant, sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.-right-\[43px\]{right:-43px}.bottom-0{bottom:0px}.left-0{left:0px}.left-1\/2{left:50%}.left-1\/4{left:25%}.left-4{left:1rem}.right-0{right:0px}.top-0{top:0px}.top-1{top:0.25rem}.top-1\/2{top:50%}.top-4{top:1rem}.bottom-20{bottom:5rem}.bottom-6{bottom:1.5rem}.left-6{left:1.5rem}.right-6{right:1.5rem}.z-10{z-index:10}.z-50{z-index:50}.order-1{order:1}.order-2{order:2}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.ml-4{margin-left:1rem}.mr-3{margin-right:0.75rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.aspect-square{aspect-ratio:1 / 1}.h-10{height:2.5rem}.h-12{height:3rem}.h-20{height:5rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-64{height:16rem}.h-\[300px\]{height:300px}.h-\[500px\]{height:500px}.h-\[600px\]{height:600px}.h-\[800px\]{height:800px}.h-auto{height:auto}.h-full{height:100%}.h-14{height:3.5rem}.h-16{height:4rem}.h-8{height:2rem}.min-h-\[400px\]{min-height:400px}.min-h-\[40px\]{min-height:40px}.min-h-\[90vh\]{min-height:90vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-20{width:5rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-\[300px\]{width:300px}.w-\[500px\]{width:500px}.w-\[600px\]{width:600px}.w-\[800px\]{width:800px}.w-full{width:100%}.w-14{width:3.5rem}.w-16{width:4rem}.w-8{width:2rem}.w-96{width:24rem}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-5xl{max-width:64rem}.max-w-6xl{max-width:72rem}.max-w-lg{max-width:32rem}.max-w-\[80\%\]{max-width:80%}.flex-1{flex:1 1 0%}.flex-shrink-0{flex-shrink:0}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-x-10{--tw-translate-x:-2.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.-translate-y-1\/2{--tw-translate-y:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.cursor-pointer{cursor:pointer}.resize-none{resize:none}.list-none{list-style-type:none}.columns-2{columns:2}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-16{gap:4rem}.gap-2{gap:0.5rem}.gap-3{gap:0.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-y-16 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(4rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(4rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.overflow-x-hidden{overflow-x:hidden}.scroll-smooth{scroll-behavior:smooth}.rounded{border-radius:0.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-xl{border-radius:0.75rem}.rounded-tr-none{border-top-right-radius:0px}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-y{border-top-width:1px;border-bottom-width:1px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-r-2{border-right-width:2px}.border-t{border-top-width:1px}.border-t-4{border-top-width:4px}.border-brand-neonCyan{--tw-border-opacity:1;border-color:rgb(0 240 255 / var(--tw-border-opacity, 1))}.border-brand-neonCyan\/20{border-color:rgb(0 240 255 / 0.2)}.border-brand-neonCyan\/30{border-color:rgb(0 240 255 / 0.3)}.border-brand-neonPink{--tw-border-opacity:1;border-color:rgb(255 0 127 / var(--tw-border-opacity, 1))}.border-brand-neonPink\/30{border-color:rgb(255 0 127 / 0.3)}.border-brand-neonPurple{--tw-border-opacity:1;border-color:rgb(138 43 226 / var(--tw-border-opacity, 1))}.border-brand-neonPurple\/30{border-color:rgb(138 43 226 / 0.3)}.border-brand-neonPurple\/50{border-color:rgb(138 43 226 / 0.5)}.border-green-500{--tw-border-opacity:1;border-color:rgb(34 197 94 / var(--tw-border-opacity, 1))}.border-red-500{--tw-border-opacity:1;border-color:rgb(239 68 68 / var(--tw-border-opacity, 1))}.border-slate-700{--tw-border-opacity:1;border-color:rgb(51 65 85 / var(--tw-border-opacity, 1))}.border-slate-700\/50{border-color:rgb(51 65 85 / 0.5)}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.bg-brand-bg{--tw-bg-opacity:1;background-color:rgb(8 8 22 / var(--tw-bg-opacity, 1))}.bg-brand-bg\/50{background-color:rgb(8 8 22 / 0.5)}.bg-brand-bg\/80{background-color:rgb(8 8 22 / 0.8)}.bg-brand-card{--tw-bg-opacity:1;background-color:rgb(18 18 38 / var(--tw-bg-opacity, 1))}.bg-brand-card\/80{background-color:rgb(18 18 38 / 0.8)}.bg-brand-neonCyan\/10{background-color:rgb(0 240 255 / 0.1)}.bg-brand-neonCyan\/20{background-color:rgb(0 240 255 / 0.2)}.bg-brand-neonCyan\/5{background-color:rgb(0 240 255 / 0.05)}.bg-brand-neonPink{--tw-bg-opacity:1;background-color:rgb(255 0 127 / var(--tw-bg-opacity, 1))}.bg-brand-neonPink\/10{background-color:rgb(255 0 127 / 0.1)}.bg-brand-neonPink\/20{background-color:rgb(255 0 127 / 0.2)}.bg-brand-neonPurple{--tw-bg-opacity:1;background-color:rgb(138 43 226 / var(--tw-bg-opacity, 1))}.bg-brand-neonPurple\/20{background-color:rgb(138 43 226 / 0.2)}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-white\/20{background-color:rgb(255 255 255 / 0.2)}.bg-\[url\(\'data\:image\/svg\+xml\;base64\2c PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdib3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMzMzMzMzMiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRoMTR2MkgzNnYtMnpNMzYgMjZoMTZ2MkgzNnYtMnpNMTIgMzRoMTR2MkgxMnYtMnpNMTIgMjZoMTR2MkgxMnYtMnoiLz48L2c\+PC9nPjwvc3ZnPg\=\=\'\)\]{background-image:url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdib3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMzMzMzMzMiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRoMTR2MkgzNnYtMnpNMzYgMjZoMTZ2MkgzNnYtMnpNMTIgMzRoMTR2MkgxMnYtMnpNMTIgMjZoMTR2MkgxMnYtMnoiLz48L2c+PC9nPjwvc3ZnPg==')}.bg-\[url\(\'https\:\/\/www\.transparenttextures\.com\/patterns\/cubes\.png\'\)\]{background-image:url('https://www.transparenttextures.com/patterns/cubes.png')}.bg-gradient-to-b{background-image:linear-gradient(to bottom, var(--tw-gradient-stops))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right, var(--tw-gradient-stops))}.bg-gradient-to-l{background-image:linear-gradient(to left, var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right, var(--tw-gradient-stops))}.from-brand-bg{--tw-gradient-from:#080816 var(--tw-gradient-from-position);--tw-gradient-to:rgb(8 8 22 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-brand-neonCyan\/30{--tw-gradient-from:rgb(0 240 255 / 0.3) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 240 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-brand-neonPink\/10{--tw-gradient-from:rgb(255 0 127 / 0.1) var(--tw-gradient-from-position);--tw-gradient-to:rgb(255 0 127 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-brand-neonPurple\/20{--tw-gradient-from:rgb(138 43 226 / 0.2) var(--tw-gradient-from-position);--tw-gradient-to:rgb(138 43 226 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-brand-neonPurple\/5{--tw-gradient-from:rgb(138 43 226 / 0.05) var(--tw-gradient-from-position);--tw-gradient-to:rgb(138 43 226 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-transparent{--tw-gradient-from:transparent var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-brand-neonPink\/10{--tw-gradient-to:rgb(255 0 127 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), rgb(255 0 127 / 0.1) var(--tw-gradient-via-position), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-brand-neonCyan\/10{--tw-gradient-to:rgb(0 240 255 / 0.1) var(--tw-gradient-to-position)}.to-brand-neonCyan\/20{--tw-gradient-to:rgb(0 240 255 / 0.2) var(--tw-gradient-to-position)}.to-brand-neonPink\/30{--tw-gradient-to:rgb(255 0 127 / 0.3) var(--tw-gradient-to-position)}.to-brand-neonPurple\/10{--tw-gradient-to:rgb(138 43 226 / 0.1) var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-10{padding:2.5rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.p-3{padding:0.75rem}.px-10{padding-left:2.5rem;padding-right:2.5rem}.px-12{padding-left:3rem;padding-right:3rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-32{padding-top:8rem;padding-bottom:8rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-5{padding-top:1.25rem;padding-bottom:1.25rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.py-10{padding-top:2.5rem;padding-bottom:2.5rem}.pb-24{padding-bottom:6rem}.pb-4{padding-bottom:1rem}.pb-6{padding-bottom:1.5rem}.pr-8{padding-right:2rem}.pt-12{padding-top:3rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.font-heading{font-family:Heebo, sans-serif}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-5xl{font-size:3rem;line-height:1}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-\[1\.1\]{line-height:1.1}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-wider{letter-spacing:0.05em}.text-brand-neonCyan{--tw-text-opacity:1;color:rgb(0 240 255 / var(--tw-text-opacity, 1))}.text-brand-neonPink{--tw-text-opacity:1;color:rgb(255 0 127 / var(--tw-text-opacity, 1))}.text-brand-neonPurple{--tw-text-opacity:1;color:rgb(138 43 226 / var(--tw-text-opacity, 1))}.text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-slate-200{--tw-text-opacity:1;color:rgb(226 232 240 / var(--tw-text-opacity, 1))}.text-slate-300{--tw-text-opacity:1;color:rgb(203 213 225 / var(--tw-text-opacity, 1))}.text-slate-400{--tw-text-opacity:1;color:rgb(148 163 184 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-white\/80{color:rgb(255 255 255 / 0.8)}.placeholder-slate-500::placeholder{--tw-placeholder-opacity:1;color:rgb(100 116 139 / var(--tw-placeholder-opacity, 1))}.accent-brand-neonPink{accent-color:#FF007F}.opacity-20{opacity:0.2}.opacity-5{opacity:0.05}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_15px_\#fff\]{--tw-shadow:0 0 15px #fff;--tw-shadow-colored:0 0 15px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_15px_rgba\(255\2c 0\2c 127\2c 0\.5\)\]{--tw-shadow:0 0 15px rgba(255,0,127,0.5);--tw-shadow-colored:0 0 15px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_40px_rgba\(0\2c 240\2c 255\2c 0\.2\)\]{--tw-shadow:0 0 40px rgba(0,240,255,0.2);--tw-shadow-colored:0 0 40px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_40px_rgba\(255\2c 0\2c 127\2c 0\.6\)\]{--tw-shadow:0 0 40px rgba(255,0,127,0.6);--tw-shadow-colored:0 0 40px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_50px_rgba\(138\2c 43\2c 226\2c 0\.4\)\]{--tw-shadow:0 0 50px rgba(138,43,226,0.4);--tw-shadow-colored:0 0 50px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-neon-cyan{--tw-shadow:0 0 25px -5px rgba(0, 240, 255, 0.6);--tw-shadow-colored:0 0 25px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-neon-pink{--tw-shadow:0 0 25px -5px rgba(255, 0, 127, 0.6);--tw-shadow-colored:0 0 25px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-neon-purple{--tw-shadow:0 0 35px -5px rgba(138, 43, 226, 0.6);--tw-shadow-colored:0 0 35px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-\[0_0_15px_rgba\(34\2c 197\2c 94\2c 0\.5\)\]{--tw-shadow:0 0 15px rgba(34,197,94,0.5);--tw-shadow-colored:0 0 15px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.blur-2xl{--tw-blur:blur(40px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-3xl{--tw-blur:blur(64px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[100px\]{--tw-blur:blur(100px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[120px\]{--tw-blur:blur(120px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-\[150px\]{--tw-blur:blur(150px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.grayscale{--tw-grayscale:grayscale(100%);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.backdrop-blur-sm{--tw-backdrop-blur:blur(4px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-700{transition-duration:700ms}.marker\:content-\[\'\'\] *::marker{--tw-content:'';content:var(--tw-content)}.marker\:content-\[\'\'\]::marker{--tw-content:'';content:var(--tw-content)}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:-translate-y-2:hover{--tw-translate-y:-0.5rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:border-brand-neonCyan:hover{--tw-border-opacity:1;border-color:rgb(0 240 255 / var(--tw-border-opacity, 1))}.hover\:border-brand-neonCyan\/50:hover{border-color:rgb(0 240 255 / 0.5)}.hover\:border-brand-neonPink:hover{--tw-border-opacity:1;border-color:rgb(255 0 127 / var(--tw-border-opacity, 1))}.hover\:border-brand-neonPink\/50:hover{border-color:rgb(255 0 127 / 0.5)}.hover\:border-brand-neonPurple:hover{--tw-border-opacity:1;border-color:rgb(138 43 226 / var(--tw-border-opacity, 1))}.hover\:border-brand-neonPurple\/50:hover{border-color:rgb(138 43 226 / 0.5)}.hover\:border-slate-500:hover{--tw-border-opacity:1;border-color:rgb(100 116 139 / var(--tw-border-opacity, 1))}.hover\:bg-brand-neonCyan:hover{--tw-bg-opacity:1;background-color:rgb(0 240 255 / var(--tw-bg-opacity, 1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.hover\:text-brand-bg:hover{--tw-text-opacity:1;color:rgb(8 8 22 / var(--tw-text-opacity, 1))}.hover\:text-brand-neonPink:hover{--tw-text-opacity:1;color:rgb(255 0 127 / var(--tw-text-opacity, 1))}.hover\:shadow-\[0_0_35px_rgba\(255\2c 0\2c 127\2c 0\.8\)\]:hover{--tw-shadow:0 0 35px rgba(255,0,127,0.8);--tw-shadow-colored:0 0 35px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-\[0_0_60px_rgba\(255\2c 0\2c 127\2c 0\.9\)\]:hover{--tw-shadow:0 0 60px rgba(255,0,127,0.9);--tw-shadow-colored:0 0 60px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-neon-cyan:hover{--tw-shadow:0 0 25px -5px rgba(0, 240, 255, 0.6);--tw-shadow-colored:0 0 25px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-neon-pink:hover{--tw-shadow:0 0 25px -5px rgba(255, 0, 127, 0.6);--tw-shadow-colored:0 0 25px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:shadow-neon-purple:hover{--tw-shadow:0 0 35px -5px rgba(138, 43, 226, 0.6);--tw-shadow-colored:0 0 35px -5px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.hover\:grayscale-0:hover{--tw-grayscale:grayscale(0);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.focus\:border-brand-neonCyan:focus{--tw-border-opacity:1;border-color:rgb(0 240 255 / var(--tw-border-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-brand-neonPink:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(255 0 127 / var(--tw-ring-opacity, 1))}.group[open] .group-open\:rotate-45{--tw-rotate:45deg;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-125{--tw-scale-x:1.25;--tw-scale-y:1.25;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:border-brand-neonCyan\/50{border-color:rgb(0 240 255 / 0.5)}.group:hover .group-hover\:border-brand-neonPink\/50{border-color:rgb(255 0 127 / 0.5)}.group:hover .group-hover\:border-brand-neonPurple\/50{border-color:rgb(138 43 226 / 0.5)}.group:hover .group-hover\:border-white\/30{border-color:rgb(255 255 255 / 0.3)}@media (min-width: 640px){.sm\:w-auto{width:auto}.sm\:flex-row{flex-direction:row}}@media (min-width: 768px){.md\:-right-\[59px\]{right:-59px}.md\:-translate-y-4{--tw-translate-y:-1rem;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.md\:columns-4{columns:4}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:p-12{padding:3rem}.md\:p-14{padding:3.5rem}.md\:p-16{padding:4rem}.md\:pr-12{padding-right:3rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-3xl{font-size:1.875rem;line-height:2.25rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}.md\:text-6xl{font-size:3.75rem;line-height:1}.md\:text-base{font-size:1rem;line-height:1.5rem}.md\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width: 1024px){.lg\:order-1{order:1}.lg\:order-2{order:2}.lg\:block{display:block}.lg\:hidden{display:none}.lg\:w-2\/5{width:40%}.lg\:w-3\/5{width:60%}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:justify-start{justify-content:flex-start}.lg\:text-7xl{font-size:4.5rem;line-height:1}}</style><link rel="stylesheet" href="./בוטינה - סוכנת ה-AI לעסק שלך_files/yaccessibility.css"><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/card-injection.js.הורדה"></script><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style><style>#netfree-popup-window-main{position:fixed;background:#ffffff;padding:0;margin:0;transition:right 0.3s ease, left 0.3s ease;z-index:9999999999;direction:rtl;box-sizing:border-box;top:0;bottom:0;height:100%;right:-250px;width:250px;background-color:rgba(0,0,255,0);pointer-events:none}#netfree-popup-window-hand-pull{background-image:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjAuMTc3MjEzaW4iIGhlaWdodD0iMC44MjYwNTFpbiIgdmVyc2lvbj0iMS4xIiBzaGFwZS1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgdGV4dC1yZW5kZXJpbmc9Imdlb21ldHJpY1ByZWNpc2lvbiIgaW1hZ2UtcmVuZGVyaW5nPSJvcHRpbWl6ZVF1YWxpdHkiIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIg0Kdmlld0JveD0iMCAwIDEwOTcxIDUxMTQxIg0KIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4NCiA8ZyBpZD0iTGF5ZXJfeDAwMjBfMSI+IA0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMzkwMiIgcj0iMzkwMiIvPg0KICA8Y2lyY2xlIGZpbGw9IiMyNDNFNEMiIGN4PSIzOTAyIiBjeT0iMTgzNDciIHI9IjM5MDIiLz4NCiAgPGNpcmNsZSBmaWxsPSIjMjQzRTRDIiBjeD0iMzkwMiIgY3k9IjMyNzkzIiByPSIzOTAyIi8+DQogIDxjaXJjbGUgZmlsbD0iIzI0M0U0QyIgY3g9IjM5MDIiIGN5PSI0NzIzOSIgcj0iMzkwMiIvPg0KICA8cmVjdCBmaWxsPSJub25lIiB3aWR0aD0iMTA5NzEiIGhlaWdodD0iNTExNDEiLz4NCiA8L2c+DQo8L3N2Zz4NCg==);background-size:88%;background-repeat:no-repeat;width:15px;left:-15px;height:50px;position:absolute;top:10px;bottom:10px;margin:auto;cursor:pointer;pointer-events:all}#netfree-popup-window-iframe{width:100%;height:100%;border:0;margin:0;padding:0;position:relative;display:block;visibility:hidden;transition:visibility 0.3s}#netfree-popup-window-main.active #netfree-popup-window-iframe{visibility:visible;transition:visibility 0.3s}.netfree-popup-window-mouseenter{opacity:.7;-webkit-filter:blur(2px)}.netfree-popup-window-click{opacity:.2}#netfree-popup-window-main.active{right:0px;pointer-events:all}#netfree-popup-window-main.h-position-left{right:auto;left:-250px}#netfree-popup-window-main.h-position-left.active{right:auto;left:0px}#netfree-popup-window-main.h-position-left #netfree-popup-window-hand-pull{left:auto;right:-15px;background-position-x:200%}#netfree-popup-window-main.v-position-top #netfree-popup-window-hand-pull{margin:20px 0 auto 0}#netfree-popup-window-main.v-position-bottom #netfree-popup-window-hand-pull{margin:auto 0 20px 0}@media print{#netfree-popup-window-main{display:none}#netfree-popup-window{display:none}}@media only screen and (max-height: 750px){#netfree-popup-window-main{right:-309px;width:309px}#netfree-popup-window-main.h-position-left{left:-309px}}@media only screen and (max-device-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-280px;width:280px}#netfree-popup-window-main.h-position-left{left:-280px}}@media only screen and (max-device-width: 1200px) and (min-width: 760px) and (orientation: landscape){#netfree-popup-window-main{right:-302px;width:302px}#netfree-popup-window-main.h-position-left{left:-302px}}@media only screen and (max-device-width: 1200px) and (min-device-width: 750px) and (orientation: portrait){#netfree-popup-window-main{right:-270px;width:270px}#netfree-popup-window-main.h-position-left{left:-270px}}@media only screen and (max-device-width: 700px) and (orientation: portrait){#netfree-popup-window-main{right:-222px;width:222px}#netfree-popup-window-main.h-position-left{left:-222px}}@media print{#netfree-popup-window-main{display:none}}
+</style></head><body class="overflow-x-hidden" id="0co2fz">
+
+    <!-- Qualifier Bar -->
+    <div class="bg-brand-neonPink/10 border-b border-brand-neonPink/30 text-center py-3 px-4 relative z-50" id="vw25xe">
+        <p class="text-white font-semibold text-sm md:text-base" id="g7tkqj">
+            נמאס לך לבזבז שעות על מענה לפניות של לקוחות במקום לנהל את העסק?
+        </p>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[90vh] flex items-center pt-12 pb-24 overflow-hidden" id="8bmheh">
+        <!-- Glowing background elements -->
+        <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-brand-neonPurple/20 rounded-full blur-[120px] pointer-events-none" id="8xeqsr"></div>
+        <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-brand-neonCyan/10 rounded-full blur-[150px] pointer-events-none" id="x0e8jf"></div>
+        <div class="absolute top-1/2 left-1/4 w-[300px] h-[300px] bg-brand-neonPink/20 rounded-full blur-[100px] pointer-events-none" id="v4fpdm"></div>
+
+        <div class="container mx-auto px-6 relative z-10" id="0ar401">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" id="j3bqba" data-selected-element="true">
+                <!-- Right column in RTL (Image - as requested "צד ימין: איור") -->
+                <div class="relative flex justify-center lg:justify-start" id="4f5gt3">
+                    <div class="relative w-full max-w-lg" id="o5hf9y">
+                        <div class="absolute inset-0 bg-gradient-to-tr from-brand-neonCyan/30 to-brand-neonPink/30 rounded-3xl blur-2xl transform scale-105" id="mr207j"></div>
+                        <img src="botina.jpg" alt="Botina AI Agent" fetchpriority="high" loading="eager" class="relative z-10 rounded-3xl shadow-[0_0_40px_rgba(0,240,255,0.2)] animate-float border border-white/10 w-full h-auto object-cover aspect-square" id="izxopp" style="width: 561px; height: 718px;">
+                    </div>
+                </div>
+
+                <!-- Left column in RTL (Text - as requested "צד שמאל: כותרת") -->
+                <div class="text-right" id="51j1a1">
+                    <h1 class="font-heading text-5xl md:text-6xl lg:text-7xl font-black mb-6 leading-[1.1] text-white" id="aekxn7" style=""><span class="text-gradient block mb-2" id="02i3pb" style="text-align: right;">בוטינה </span>*באה לתת שירות</h1>
+                    <p class="text-xl md:text-2xl font-semibold text-white mb-6 leading-tight" id="h3sc9g" style="text-align: right;">נציגה AI שעובדת ללא הפסקה</p>
+                    <p class="text-lg text-slate-300 mb-10 leading-relaxed max-w-2xl" id="s41lj9" style="text-align: right;">הגיע הזמן להפסיק לבזבז זמן יקר על משימות שגרתיות. בוטינה, סוכנת ה-AI שלך, תנהל את כל התקשורת עם הלקוחות <strong class="text-brand-neonCyan font-bold" id="c3wlzh">בצורה אוטומטית וחכמה</strong>, כדי שתוכל להתמקד במה שבאמת חשוב – צמיחת העסק שלך.</p>
+                    <div class="flex flex-col sm:flex-row gap-4" id="gzdfv4">
+                        <button class="inline-flex justify-center items-center px-8 py-5 text-xl font-bold text-white bg-gradient-primary rounded-full shadow-neon-pink hover:shadow-[0_0_35px_rgba(255,0,127,0.8)] transition-all transform hover:-translate-y-1 text-center w-full sm:w-auto" id="ru4pvz" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" style="border: none; cursor: pointer;">
+                            כן, אני רוצה לקבוע שיחת הכרות
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- First Proof CTA -->
+    <section class="py-20 bg-brand-bg relative border-t border-white/5" id="ocpruo">
+        <div class="container mx-auto px-6 relative z-10" id="5l5h1n">
+            
+        </div>
+    </section>
+
+    <!-- Problem & Dream -->
+    <section class="py-24 relative overflow-hidden bg-gradient-card" id="90x7lw">
+        <div class="container mx-auto px-6 relative z-10" id="6ksfe3">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" id="hz8hhy">
+                <div class="order-2 lg:order-1 relative" id="a3tc5r">
+                    <div class="absolute inset-0 bg-brand-neonPurple/20 blur-3xl rounded-full transform -translate-x-10" id="obyuuj"></div>
+                    <img src="service.jpg"style="width: 560px;
+     class="relative z-10 rounded-2xl shadow-2xl  grayscale hover:grayscale-0 transition-all" id="l7h8s0"
+     alt="Stressed business owner">
+                </div>
+                <div class="order-1 lg:order-2" id="rx8iht">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-8" id="jga16q">אם אתה מרגיש שאתה "העובד של הלקוחות שלך", אתה לא לבד.</h2>
+                    <p class="text-lg text-slate-300 mb-6 leading-relaxed" id="lunusi">זה מתחיל בהודעה אחת קטנה במייל. ואז עוד אחת בוואטסאפ. פתאום הטלפון מצלצל, ובמקביל קופצת התראה מהצ'אט באתר. אם התחושות האלה מוכרות לך, כנראה שגם אתה סובל מ"תסמונת העומס המתמיד":</p>
+                    <ul class="space-y-4 mb-8 text-slate-200" id="w89ozu">
+                        <li class="flex items-start" id="q2tpxq">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="6wld4x">✕</span>
+                            <span id="049ymf">אתה <strong class="text-white" id="77rqzq">שורף חצי יום</strong> רק בלחזור על אותן תשובות שוב ושוב.</span>
+                        </li>
+                        <li class="flex items-start" id="s0qf2d">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="pa1xl8">✕</span>
+                            <span id="izg5f4">אתה מפספס לידים יקרים כי לקוח פנה ב-11 בלילה ולא היית זמין.</span>
+                        </li>
+                        <li class="flex items-start" id="61kt45">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="du37ks">✕</span>
+                            <span id="07xue7">אתה משלם הון על עובדים שיכלו להיות מוחלפים באוטומציה פשוטה.</span>
+                        </li>
+                        <li class="flex items-start" id="t39fan">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="5da617">✕</span>
+                            <span id="x3jvl9">אתה כל הזמן בחרדה שאולי <strong class="text-white" id="vxsflr">שכחת לחזור למישהו</strong> חשוב.</span>
+                        </li>
+                        <li class="flex items-start" id="tls1lw">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="v6ajst">✕</span>
+                            <span id="zkmj8j">אתה מרגיש שאתה עסוק ב"כיבוי שריפות" במקום בניהול אסטרטגי.</span>
+                        </li>
+                        <li class="flex items-start" id="8j8ur0">
+                            <span class="text-brand-neonPink mr-3 mt-1 text-xl" id="s1ahrq">✕</span>
+                            <span id="xq7fmv">הניסיון שלך עם בוטים בעבר רק <strong class="text-white" id="m3ll0y">עצבן את הלקוחות</strong> ויצר יותר עבודה.</span>
+                        </li>
+                    </ul>
+                    
+                    <div class="bg-brand-bg p-6 rounded-xl border-l-4 border-brand-neonCyan shadow-lg mt-8" id="8vfwt2">
+                        <p class="text-lg text-white font-medium leading-relaxed" id="3wkdl6">
+                            עכשיו, דמיין מציאות אחרת. מציאות שבה אתה מתעורר בבוקר, פותח את היומן, ומגלה שנקבעו לך <strong class="text-brand-neonCyan" id="kbkjgj">3 פגישות חדשות</strong> עם לקוחות פוטנציאליים. כל זה קרה בזמן שישנת. דמיין שקט נפשי, בידיעה שכל לקוח שפונה מקבל מענה מיידי, מקצועי ומדויק – 24/7. זו לא פנטזיה. זו המציאות שסוכן AI חכם יכול ליצור עבורך.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Possibility Bridge -->
+    <section class="py-20 bg-brand-bg border-y border-white/5 relative" id="nwvb52">
+        <div class="absolute inset-0 bg-[url(&#39;data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdib3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMzMzMzMzMiIGZpbGwtb3BhY2l0eT0iMC4xIj48cGF0aCBkPSJNMzYgMzRoMTR2MkgzNnYtMnpNMzYgMjZoMTZ2MkgzNnYtMnpNMTIgMzRoMTR2MkgxMnYtMnpNMTIgMjZoMTR2MkgxMnYtMnoiLz48L2c+PC9nPjwvc3ZnPg==&#39;)] opacity-20" id="3mr2qh"></div>
+        <div class="container mx-auto px-6 relative z-10 text-center" id="46sp0i">
+            <h2 class="text-3xl md:text-5xl font-heading font-black text-white mb-16" id="pl2x7h">
+                הגיע הזמן להפוך את העסק שלך למכונה <span class="text-gradient" id="n13lmx">אוטומטית ויעילה.</span>
+            </h2>
+            <p class="text-xl text-slate-300 mb-12 max-w-3xl mx-auto" id="yijqz8">
+                אנחנו לא בונים "עוד בוט". אנחנו בונים לך את העובד הכי טוב שהיה לך אי פעם. עובד שלא מתעייף, לא עושה טעויות, ותמיד יודע בדיוק מה להגיד כדי לקדם את השיחה לשלב הבא.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="uusd5c">
+                <div class="bg-brand-card p-8 rounded-2xl border border-white/10 hover:border-brand-neonPink/50 transition duration-500 group" id="i3b56j">
+                    <div class="text-4xl mb-4 group-hover:scale-110 transition duration-500 transform" id="52qcnq">⚖️</div>
+                    <p class="text-lg text-white font-medium" id="d2pvs0">עם בוטינה, אתה יכול גם לנהל עסק יעיל וגם לשמור על שירות אישי.</p>
+                </div>
+                <div class="bg-brand-card p-8 rounded-2xl border border-white/10 hover:border-brand-neonCyan/50 transition duration-500 group" id="v4h0nw">
+                    <div class="text-4xl mb-4 group-hover:scale-110 transition duration-500 transform" id="6cltk8">📈</div>
+                    <p class="text-lg text-white font-medium" id="2zhdcu">עם בוטינה, אתה יכול גם לחסוך בהוצאות וגם להגדיל את ההכנסות.</p>
+                </div>
+                <div class="bg-brand-card p-8 rounded-2xl border border-white/10 hover:border-brand-neonPurple/50 transition duration-500 group" id="prlrs0">
+                    <div class="text-4xl mb-4 group-hover:scale-110 transition duration-500 transform" id="ct19z9">🧘‍♂️</div>
+                    <p class="text-lg text-white font-medium" id="4jmpnw">עם בוטינה, אתה יכול גם לקבל שקט נפשי וגם לראות את העסק שלך צומח.</p>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <!-- Stats/Metrics -->
+    
+
+    <!-- Solution Framework -->
+    <section class="py-24 bg-gradient-card relative" id="12gn13">
+        <div class="container mx-auto px-6 relative z-10" id="2xqh3o">
+            <h2 class="text-3xl md:text-4xl font-heading font-black text-center text-white mb-16" id="kkwovk">
+                אז מה זה בעצם "סוכן AI" ואיך הוא יעזור לעסק שלך?
+            </h2>
+            
+            <p class="text-xl text-center text-slate-300 max-w-4xl mx-auto mb-16" id="gs7exi">
+                תחשוב על בוטינה לא כתוכנה, אלא כעובדת דיגיטלית שמצטרפת לצוות שלך. בניגוד לבוטים מיושנים שמבוססים על תפריטי כפתורים, בוטינה <strong class="text-brand-neonCyan" id="q3l2no">מבינה שפה חופשית</strong> ומנהלת שיחה אנושית וזורמת עם הלקוחות שלך. היא מתחברת למוח של העסק שלך ויודעת לעשות הרבה יותר מסתם לענות על שאלות.
+            </p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" id="4cx8ly">
+                <div class="relative" id="9aw1x0">
+                    <div class="absolute inset-0 bg-brand-neonCyan/20 blur-2xl rounded-full" id="d1pemo"></div>
+                    <img src="compute.jpg" alt="AI Agent interacting with systems" loading="lazy" class="relative z-10 rounded-2xl border border-white/10 w-full object-cover" id="70njl8" style="width: 433px; height: 677px;">
+                </div>
+                
+                <div id="mboehs">
+                    <h3 class="text-2xl font-bold text-white mb-8 border-b border-white/10 pb-4" id="seh00t">מה הסוכן שלך יכול לעשות?</h3>
+                    <ul class="space-y-6 text-slate-300 text-lg" id="z59dbi">
+                        <li class="flex items-start bg-brand-bg/50 p-4 rounded-xl border border-white/5" id="b4f1yi">
+                            <span class="text-brand-neonCyan ml-4 text-2xl" id="huky9r">💬</span>
+                            <div id="zihbt6"><strong class="text-white block mb-1" id="hb9s84">שירות לקוחות אוטומטי:</strong> מענה מיידי 24/7 לשאלות נפוצות, בדיקת סטטוס הזמנה, ופתרון בעיות בסיסיות.</div>
+                        </li>
+                        <li class="flex items-start bg-brand-bg/50 p-4 rounded-xl border border-white/5" id="h5pujw">
+                            <span class="text-brand-neonPink ml-4 text-2xl" id="9giopu">🧠</span>
+                            <div id="t4c9yg"><strong class="text-white block mb-1" id="730hgz">מענה חכם לפניות:</strong> סינון ראשוני של לידים, שליחת הצעות מחיר אוטומטיות, ותיעוד כל המידע ב-CRM.</div>
+                        </li>
+                        <li class="flex items-start bg-brand-bg/50 p-4 rounded-xl border border-white/5" id="ubp9rz">
+                            <span class="text-brand-neonPurple ml-4 text-2xl" id="kbuart">📅</span>
+                            <div id="x6atsh"><strong class="text-white block mb-1" id="elhi9l">קביעת פגישות:</strong> במקום להתכתב הלוך ושוב על "מתי נוח לך?", הסוכן פשוט ישלח ללקוח קישור ליומן שלך ויקבע פגישה <strong class="text-brand-neonCyan" id="6g5xpe">ללא התערבותך</strong>.</div>
+                        </li>
+                        <li class="flex items-start bg-brand-bg/50 p-4 rounded-xl border border-white/5" id="ty6kyv">
+                            <span class="text-brand-neonCyan ml-4 text-2xl" id="coz8db">📂</span>
+                            <div id="ca6nrl"><strong class="text-white block mb-1" id="exgwz1">ניהול מידע עסקי:</strong> הסוכן לומד את כל המידע על העסק שלך ויודע לספק תשובות מדויקות על מחירים, שירותים, תיק עבודות ועוד.</div>
+                        </li>
+                        <li class="flex items-start bg-brand-bg/50 p-4 rounded-xl border border-white/5" id="gfsm98">
+                            <span class="text-brand-neonPink ml-4 text-2xl" id="z4fk6i">🔗</span>
+                            <div id="ok71p0"><strong class="text-white block mb-1" id="gf5w0a">עבודה רב-ערוצית:</strong> בוטינה יכולה לעבוד דרך צ'אט באתר, וואטסאפ, או אפילו לענות למיילים נכנסים באופן אוטומטי.</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Future Pacing -->
+    <section class="py-24 bg-brand-bg relative overflow-hidden" id="xci9nv">
+        <div class="absolute inset-0 bg-[url(&#39;https://www.transparenttextures.com/patterns/cubes.png&#39;)] opacity-5" id="3dx58p"></div>
+        <div class="container mx-auto px-6 relative z-10" id="348svn">
+            <div class="max-w-4xl mx-auto bg-brand-card/80 backdrop-blur-md p-10 md:p-14 rounded-3xl border border-brand-neonPurple/30 shadow-neon-purple text-center" id="4outw2">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold text-white mb-8" id="x21rby">
+                    דמיין את יום העבודה שלך בעוד חודש מהיום...
+                </h2>
+                <div class="text-lg text-slate-300 leading-relaxed text-right space-y-6" id="afd6j5">
+                    <p id="ibpkwr">
+                        אתה מגיע למשרד בבוקר, אבל במקום לפתוח את היום במבול של הודעות ומיילים דחופים, אתה לוגם את הקפה שלך בשקט. אתה פותח את היומן ורואה שתי פגישות מכירה חדשות שנקבעו במהלך הלילה על ידי בוטינה. לידן, סיכום קצר של השיחה והצרכים של כל לקוח.
+                    </p>
+                    <p id="2dftp2">
+                        במהלך היום, במקום לענות לאותן 5 שאלות שוב ושוב, אתה מתפנה סוף סוף לעבוד על המצגת החשובה ההיא או לחשוב על אסטרטגיית השיווק לרבעון הבא. לקוח מתקשר ושואל אם שלחת לו את תיק העבודות. אתה עונה בביטחון: "<strong class="text-white" id="a730l4">בוטינה כבר שלחה לו</strong> אתמול בלילה, מיד אחרי שהוא ביקש".
+                    </p>
+                    <p id="6kxkxd">
+                        בערב, אתה יוצא לארוחת ערב עם המשפחה והטלפון נשאר בתיק. <strong class="text-brand-neonPink" id="oo7ahm">אין יותר חרדה</strong> מפספוס לקוח חשוב. יש לך שקט נפשי מוחלט, כי אתה יודע שיש לך עובדת דיגיטלית שממשיכה למכור, לתת שירות ולנהל את הפניות גם כשאתה לא שם.
+                    </p>
+                    <p class="text-xl text-center text-white font-bold pt-6 border-t border-white/10 mt-6" id="ibp6p8">
+                        זה לא חלום רחוק. זו יכולה להיות המציאות שלך.
+                    </p>
+                </div>
+                
+                <div class="mt-10" id="jbg245">
+                    <button class="inline-block bg-brand-neonPurple text-white font-bold text-xl py-4 px-12 rounded-full shadow-neon-purple hover:scale-105 transition transform duration-500" id="c3kn90" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" style="border: none; cursor: pointer;">
+                        כן, אני רוצה את השקט הנפשי הזה
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Overwhelming Proof -->
+    <section class="py-24 bg-gradient-card" id="qbzv78">
+        <div class="container mx-auto px-6 text-center" id="1scd6f">
+            <h2 class="text-3xl md:text-5xl font-heading font-black text-white mb-16" id="hu9d7q" style="text-align: center;">תודות: בעלי עסקים כבר <span class="text-brand-neonCyan" id="bdp8af">לא עובדים לבד</span></h2>
+
+            <!-- Video Testimonials Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16 max-w-5xl mx-auto" id="z0q75a">
+                
+                
+            </div>
+
+            <!-- Face Pile & Written Testimonials -->
+            <div class="max-w-6xl mx-auto mb-16" id="9974nu">
+                
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-right" id="2i64lv">
+                    <!-- Testimonial 1 -->
+                    
+                    <!-- Testimonial 2 -->
+                    <div class="bg-brand-bg p-8 rounded-2xl border border-white/5 relative iframeEditor__dragging" id="tv4tli" data-selected-element="true">
+                        <div class="text-brand-neonPink text-4xl absolute top-4 left-4 opacity-20" id="jg71gu">"</div>
+                        <p class="text-slate-300 mb-6 italic relative z-10 leading-relaxed text-white" id="mgm8q4" style="text-align: right;">"ממליצה עליה לקולגות שלי בעסק"</p>
+                        <div class="flex items-center gap-4" id="rjjswu">
+                            <img src="giliicon.webp" class="w-12 h-12 rounded-full border border-white/10" alt="Avatar" id="ueb41h">
+                            <div id="50xqk8">
+                                <p class="font-bold text-white" id="x9iws7" style="">גילי מ</p>
+                                <p class="text-sm text-slate-400" id="vjmjih" style=""><span style="color: rgb(254, 254, 254);" id="i4zsps">תמר אשת מקצוע מאד אמינה, מסורה לעבודה ומקצועית<br id="qet395"></span><span style="color: rgb(254, 254, 254); text-align: right;" id="bqt61e">ממש נהנתי מהשרות שלה והיא עדיין ממשיכה ללוות אותי בכל שאלה והדרכה,ממליצה עליה לקולגות שלי בעסק</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="bg-brand-bg p-8 rounded-2xl border border-white/5 relative" id="2avfpp">
+                        <div class="text-brand-neonPurple text-4xl absolute top-4 left-4 opacity-20" id="jsf0ic">"</div>
+                        <p class="text-slate-300 mb-6 italic relative z-10 leading-relaxed text-white" id="xfhvcu" style="text-align: right;">"הבוט המדהים"</p>
+                        <div class="flex items-center gap-4" id="irlpgt">
+                            <img src="shosiicon.jpg" class="w-12 h-12 rounded-full border border-white/10" alt="Avatar" id="e1gdcz">
+                            <div id="6yei1m">
+                                <p class="font-bold text-white" id="hi8umb" style="text-align: right;">שושי גבאי</p>
+                                <p class="text-sm text-slate-400" id="thv2ze" style=""><br id="0zj8i0">תודה על הבוט המדהים, עושה את העבודה ומחמם לידים מקסים. תהליך הבניה נעשה עם המון שיתוף ושירות אדיב ומושלם, שימת לב לפרטים וראש גדול.<br id="k6asv3"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Masonry Image Gallery placeholder -->
+            <div class="columns-2 md:columns-4 gap-4 space-y-4 max-w-6xl mx-auto" id="z6fgno">
+                
+                
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Mechanism -->
+    <section class="py-24 bg-brand-bg relative" id="cy01jk">
+        <div class="container mx-auto px-6 max-w-5xl" id="cdtc7n">
+            <h2 class="text-3xl md:text-5xl font-heading font-black text-center text-white mb-16" id="nh56o8">
+                איך התהליך <span class="text-gradient" id="yi8an1">עובד?</span>
+            </h2>
+            <p class="text-xl text-center text-slate-300 mb-16" id="1c99kf">הנה תהליך 4 השלבים הפשוט שלנו להטמעת סוכן AI בעסק שלך:</p>
+
+            <div class="relative border-r-2 border-brand-neonCyan/20 pr-8 md:pr-12 space-y-16 py-8" id="9nek06">
+                <!-- Step 1 -->
+                <div class="relative group" id="k8yysg">
+                    <div class="absolute -right-[43px] md:-right-[59px] top-1 w-6 h-6 rounded-full bg-brand-bg border-4 border-brand-neonCyan shadow-neon-cyan group-hover:scale-125 transition-transform duration-500" id="d4cvkr"></div>
+                    <div class="bg-brand-card p-8 rounded-2xl border border-white/5 group-hover:border-brand-neonCyan/50 transition duration-500" id="9oo894">
+                        <h3 class="text-2xl font-bold text-white mb-4" id="fcqa19">1. קביעת שיחת איפון (ללא עלות)</h3>
+                        <p class="text-slate-300 text-lg" id="1dvloc">נקיים שיחה קצרה של 30 דקות כדי להבין לעומק את הצרכים, האתגרים והמטרות של העסק שלך.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="relative group" id="9vanob">
+                    <div class="absolute -right-[43px] md:-right-[59px] top-1 w-6 h-6 rounded-full bg-brand-bg border-4 border-brand-neonPink shadow-neon-pink group-hover:scale-125 transition-transform duration-500" id="7anynu"></div>
+                    <div class="bg-brand-card p-8 rounded-2xl border border-white/5 group-hover:border-brand-neonPink/50 transition duration-500" id="w2ceop">
+                        <h3 class="text-2xl font-bold text-white mb-4" id="02rj18">2. בניית הסוכן המותאם אישית</h3>
+                        <p class="text-slate-300 text-lg" id="td3zbg">הצוות שלנו ב-<strong class="text-brand-neonPink" id="ix8pkb">SWENLLY</strong> יבנה ו"יאמן" את בוטינה על כל המידע של העסק שלך, יגדיר את תהליכי העבודה ויתחבר למערכות הקיימות שלך (CRM, יומן, מייל).</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="relative group" id="rwo969">
+                    <div class="absolute -right-[43px] md:-right-[59px] top-1 w-6 h-6 rounded-full bg-brand-bg border-4 border-brand-neonPurple shadow-neon-purple group-hover:scale-125 transition-transform duration-500" id="zg9aiu"></div>
+                    <div class="bg-brand-card p-8 rounded-2xl border border-white/5 group-hover:border-brand-neonPurple/50 transition duration-500" id="9rit16">
+                        <h3 class="text-2xl font-bold text-white mb-4" id="fu4aoo">3. הפעלה והטמעה</h3>
+                        <p class="text-slate-300 text-lg" id="n83gbr">אנחנו משיקים את הסוכן ומטמיעים אותו בערוצים הרלוונטיים. זהו, מעכשיו יש לך עובד חדש בצוות.</p>
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="relative group" id="k402wn">
+                    <div class="absolute -right-[43px] md:-right-[59px] top-1 w-6 h-6 rounded-full bg-brand-bg border-4 border-white shadow-[0_0_15px_#fff] group-hover:scale-125 transition-transform duration-500" id="pjadsi"></div>
+                    <div class="bg-brand-card p-8 rounded-2xl border border-white/5 group-hover:border-white/30 transition duration-500" id="s1kccw">
+                        <h3 class="text-2xl font-bold text-white mb-4" id="805vr8">4. ליווי ותמיכה</h3>
+                        <p class="text-slate-300 text-lg" id="ffn6ly">אנחנו לא נעלמים. בחודש הראשון אנחנו מלווים אותך באופן צמוד, מוודאים שהכל עובד בצורה חלקה ומבצעים אופטימיזציה לפי הצורך. <strong class="text-white" id="uclsr5">ליווי זה כלול במחיר החבילה.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder Story -->
+    <section class="py-24 bg-gradient-card" id="yri0ox">
+        <div class="container mx-auto px-6" id="y2e4u0">
+            <div class="bg-brand-bg border border-slate-700 rounded-3xl overflow-hidden max-w-6xl mx-auto flex flex-col lg:flex-row" id="31mrxb">
+                <div class="w-full lg:w-2/5 min-h-[400px] relative" id="5paze0">
+                    <img src="compute.jpg" alt="Founder" loading="lazy" class="absolute inset-0 w-full h-full object-cover" id="w1aqo2">
+                    <div class="absolute inset-0 bg-gradient-to-l from-brand-bg via-transparent to-transparent hidden lg:block" id="df5nsq"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-brand-bg via-transparent to-transparent block lg:hidden" id="mxlfph"></div>
+                </div>
+                <div class="w-full lg:w-3/5 p-10 md:p-16 flex flex-col justify-center relative z-10" id="lr8kyy">
+                    <h2 class="text-3xl font-heading font-bold text-white mb-6" id="lblj1t">
+                        בנינו את בוטינה כי נמאס לנו לראות בעלי עסקים קורסים
+                    </h2>
+                    <div class="text-slate-300 space-y-4 text-lg leading-relaxed" id="3toavb">
+
+                        <p id="v2bvyb">הבנו שהבעיה היא לא של בעלי עסקים. כי הם לא עובדים קשה מספיק. הבעיה היא שהם עדיין עובדים עם כלים של המאה ה-20 בעולם של המאה ה-21.</p>
+                        <p class="text-xl text-white font-bold mt-6 mb-2" id="6103s0">למה הקמנו את בוטינה?</p>
+                        <p id="panq2n">המשימה שלנו ב-<strong class="text-brand-neonPink" id="1kyypl">SWENLLY</strong> היא לשחרר בעלי עסקים מהעבודה השחורה. אנחנו מאמינים שטכנולוגיית AI היא לא רק לחברות ענק. היא יכולה וצריכה להיות <strong class="text-brand-neonCyan" id="6n7bit">כלי נגיש ופשוט</strong> שיעזור לעסקים קטנים להתחרות, לצמוח ולהצליח. כל עסק שאנחנו עוזרים לו לחסוך זמן ולסגור יותר עסקאות הוא הגשמת החזון שלנו.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Stack (Packages) -->
+    <section id="pricing" class="py-24 bg-brand-bg relative">
+        <div class="absolute inset-0 bg-brand-neonCyan/5 blur-3xl pointer-events-none rounded-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px]" id="n45829"></div>
+        <div class="container mx-auto px-6 relative z-10" id="38u1m6">
+            <h2 class="text-3xl md:text-5xl font-heading font-black text-center text-white mb-4" id="osfxb4">
+                בחר את החבילה המתאימה <span class="text-gradient" id="g3niw0">לעסק שלך</span>
+            </h2>
+            <p class="text-xl text-center text-slate-300 mb-16" id="6sf8ea">אנחנו מציעים מגוון פתרונות שיתאימו לכל עסק ותקציב.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto items-center" id="v36l8u">
+                
+                <!-- Package 1 -->
+                <div class="bg-brand-card p-8 rounded-3xl border border-white/10 hover:border-slate-500 transition-colors text-white" id="6cm0cd">
+                    <h3 class="text-2xl font-bold mb-2" id="eufidm">בוט שירות בסיסי</h3>
+                    <p class="text-slate-400 text-sm mb-6 min-h-[40px]" id="w7u9sc">אידיאלי לעסקים שרוצים מערכת מענה אוטומטי פשוטה מבוססת כפתורים.</p>
+                    
+                    <div class="mb-6 pb-6 border-b border-white/10" id="60f714">
+                        <p class="text-sm text-slate-400" id="sd46e4">מחיר הקמה:</p>
+                        <div class="text-3xl font-black mb-1" id="5n5w92">2,500 ₪</div>
+                        <p class="text-sm text-slate-400" id="q1yjzb" data-selected-element="true">תוכנה: 150 ₪ לחודש</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8 text-slate-300" id="e63xjd">
+                        <li class="flex items-center" id="o2i6dv"><span class="text-brand-neonCyan ml-2" id="zfamfx">✓</span> עד 7 קטגוריות של כפתורים</li>
+                        <li class="flex items-center" id="3jnbcy"><span class="text-brand-neonCyan ml-2" id="2xwbcb">✓</span> מערכת מענה אוטומטי</li>
+                        <li class="flex items-center" id="hlasvu"><span class="text-brand-neonCyan ml-2" id="8ic4cy">✓</span> אפשרות התערבות של נציג במהלך השיחה</li>
+                    </ul>
+                    
+                    <a href="#" class="block w-full py-3 text-center rounded-xl border border-brand-neonCyan text-brand-neonCyan hover:bg-brand-neonCyan hover:text-brand-bg font-bold transition-colors" id="7vwfba" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" onclick="event.preventDefault(); window.Fillout?.showPopup('fVL9wKMFdaus');">בחר חבילה זו</a>
+                </div>
+
+                <!-- Package 3 (Botina) - Highlighted in Middle -->
+                <div class="bg-brand-card p-10 rounded-3xl border border-brand-neonPink shadow-neon-pink transform md:-translate-y-4 relative text-white" id="ynnd12">
+                    <div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-brand-neonPink text-white px-4 py-1 rounded-full text-sm font-bold uppercase tracking-wider" id="898xzl">המומלץ ביותר</div>
+                    
+                    <h3 class="text-3xl font-bold mb-2 text-gradient" id="hea8ht">סוכן AI מתקדם (בוטינה)</h3>
+                    <p class="text-slate-300 text-sm mb-6 min-h-[40px]" id="qhitg6">הפתרון המלא: סוכן AI חכם שמנהל עבורך את התקשורת עם הלקוחות.</p>
+                    
+                    <div class="mb-6 pb-6 border-b border-brand-neonPink/30" id="fptsr5">
+                        <p class="text-sm text-slate-400" id="u4hzd9">מחיר הקמה:</p>
+                        <div class="text-4xl font-black mb-1 text-white" id="c9asl9">החל מ-5,500 ₪</div>
+                        <p class="text-sm text-slate-400" id="slqjf5">תוכנה: 150 ₪ לחודש</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8 text-white font-medium" id="k5fltt">
+                        <li class="flex items-center" id="kziaem"><span class="text-brand-neonPink ml-2 text-xl" id="dfh29w">✓</span> התכתבות חכמה וזורמת מבוסס AI</li>
+                        <li class="flex items-center" id="6lvay7"><span class="text-brand-neonPink ml-2 text-xl" id="raqx18">✓</span> אפשרות לעבודה אוטומטית גם במייל ובוואטסאפ</li>
+                        <li class="flex items-center" id="ld4rf1"><span class="text-brand-neonPink ml-2 text-xl" id="j4bj0l">✓</span> חיבור מלא למערכות CRM</li>
+                        <li class="flex items-center" id="6z8wb2"><span class="text-brand-neonPink ml-2 text-xl" id="jsm5s7">✓</span> ניהול מידע ושיחות עם לקוחות</li>
+                    </ul>
+                    
+                    <a href="#" class="block w-full py-4 text-center rounded-xl bg-brand-neonPink text-white hover:bg-white hover:text-brand-neonPink font-bold text-lg shadow-[0_0_15px_rgba(255,0,127,0.5)] transition-all" id="7yfv9f" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" onclick="event.preventDefault(); window.Fillout?.showPopup('fVL9wKMFdaus');">בחר את בוטינה</a>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="bg-brand-card p-8 rounded-3xl border border-white/10 hover:border-slate-500 transition-colors text-white" id="19qfix">
+                    <h3 class="text-2xl font-bold mb-2" id="wdkp4l">בוט משולב AI</h3>
+                    <p class="text-slate-400 text-sm mb-6 min-h-[40px]" id="8ugcro">השילוב המושלם: בוט כפתורים עם יכולת להבין שפה חופשית של לקוחות.</p>
+                    
+                    <div class="mb-6 pb-6 border-b border-white/10" id="642lej">
+                        <p class="text-sm text-slate-400" id="4a36x7" data-selected-element="true">מחיר הקמה:</p>
+                        <div class="text-3xl font-black mb-1" id="o06q02">החל מ-4,000 ₪</div>
+                        <p class="text-sm text-slate-400" id="0th18t">תוכנה: 150 ₪ לחודש</p>
+                    </div>
+                    
+                    <ul class="space-y-4 mb-8 text-slate-300" id="b72u2x">
+                        <li class="flex items-center" id="jn4ufe"><span class="text-brand-neonCyan ml-2" id="9m49ax">✓</span> מענה חכם לפניות בשפה טבעית</li>
+                        <li class="flex items-center" id="tfqhlb"><span class="text-brand-neonCyan ml-2" id="w5tggq">✓</span> אפשרות לקביעת פגישות אוטומטית</li>
+                        <li class="flex items-center" id="wi672z"><span class="text-brand-neonCyan ml-2" id="8qy0b8">✓</span> חיבור למערכת CRM לשליפת מידע בזמן אמת</li>
+                    </ul>
+                    
+                    <a href="#" class="block w-full py-3 text-center rounded-xl border border-brand-neonCyan text-brand-neonCyan hover:bg-brand-neonCyan hover:text-brand-bg font-bold transition-colors" id="jkxoo0" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" onclick="event.preventDefault(); window.Fillout?.showPopup('fVL9wKMFdaus');">בחר חבילה זו</a>
+                </div>
+
+            </div>
+            
+            <div class="mt-16 bg-gradient-to-br from-brand-neonPurple/20 via-brand-neonPink/10 to-brand-neonCyan/20 border-2 border-brand-neonPurple/50 rounded-3xl p-10 text-center max-w-5xl mx-auto shadow-[0_0_50px_rgba(138,43,226,0.4)] relative overflow-hidden" id="fhg3lg">
+                <div class="absolute inset-0 bg-gradient-to-r from-brand-neonPink/10 to-brand-neonCyan/10 blur-2xl" id="iubd9u"></div>
+                <div class="relative z-10" id="yfwmvv">
+                    <h3 class="text-3xl font-heading font-black text-white mb-4 flex items-center justify-center gap-3" id="z2i21s">
+                        <span class="text-4xl" id="ndhlzy">✨</span>
+                        <span class="text-gradient-purple" id="zwu9q7">יכולות מתקדמות שיפוצצו את העסק שלך</span>
+                        <span class="text-4xl" id="q2j3oy">✨</span>
+                    </h3>
+                    <p class="text-slate-200 text-lg mb-8 leading-relaxed max-w-3xl mx-auto" id="gfxpcu" style="text-align: center;">רוצה להוסיף פיצ'רים מתקדמים לסוכן שלך? בוטינה יכולה לעשות הרבה יותר מלהגיב ללקוחות!</p>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-right" id="4qtok6">
+                        <!-- Feature 1 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonCyan/30 hover:border-brand-neonCyan hover:shadow-neon-cyan transition-all duration-500 group" id="2mjj5n">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500" id="jrciu1">🎨</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="c1v41a">יצירת תמונות אוטומטית</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="mlwdsg">הסוכן שלך יכול ליצור תמונות מותאמות אישית עבור לקוחות, פוסטים לרשתות חברתיות ועוד</p>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonPink/30 hover:border-brand-neonPink hover:shadow-neon-pink transition-all duration-500 group" id="0dc5qw">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500" id="tcbchj">🎬</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="4ndj7n">יצירת סרטוני וידאו</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="zx2xkb">הפוך טקסט לסרטונים מרהיבים אוטומטית למצגות, שיווק ותוכן ויראלי</p>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonPurple/30 hover:border-brand-neonPurple hover:shadow-neon-purple transition-all duration-500 group" id="zu7qz2">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500" id="7oem29">✍️</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="j68qab">כתיבת תוכן מקצועי</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="h41jvd">מאמרים, פוסטים, הצעות מחיר ותכנים שיווקיים שנכתבים בסגנון המותג שלך</p>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonCyan/30 hover:border-brand-neonCyan hover:shadow-neon-cyan transition-all duration-500 group" id="g513ei">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500" id="h7ig4o">🎙️</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="aszymg">תמלול הקלטות חכם</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="ily80k">המרת פגישות, שיחות והקלטות לטקסט מסודר עם סיכומים ופעולות נדרשות</p>
+                        </div>
+
+                        <!-- Feature 5 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonPink/30 hover:border-brand-neonPink hover:shadow-neon-pink transition-all duration-500 group" id="rz6f7t">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-500" id="3d3uok">🔄</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="qax9is">אוטומציות מותאמות אישית</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="ogjb4i">חיבור למערכות, תהליכי עבודה אוטומטיים וזרימות שמתאימות בדיוק לעסק שלך</p>
+                        </div>
+
+                        <!-- Feature 6 -->
+                        <div class="bg-brand-bg/80 backdrop-blur-sm p-6 rounded-2xl border border-brand-neonPurple/30 hover:border-brand-neonPurple hover:shadow-neon-purple transition-all duration-500 group" id="qumzat">
+                            <div class="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300" id="ok2cii">🚀</div>
+                            <h4 class="text-xl font-bold text-white mb-2" id="vyflz4">ועוד הרבה יותר...</h4>
+                            <p class="text-slate-300 text-sm leading-relaxed" id="pibld9">ניתוח נתונים, דוחות אוטומטיים, ניהול פרויקטים - אם אתה יכול לחלום עליו, אנחנו יכולים לבנות את זה</p>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 pt-6 border-t border-white/10" id="lhfg2c">
+                        <p class="text-brand-neonCyan font-bold text-lg" id="w4s4ey">
+                            💡 כל היכולות האלה זמינות כהרחבות לכל החבילות - בוא נדבר על איך זה יכול להתאים לעסק שלך!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Audience Targeting -->
+    <section class="py-24 bg-gradient-card" id="mc0bsw">
+        <div class="container mx-auto px-6 max-w-5xl" id="uu53el">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-center text-white mb-16" id="vz7fh0">
+                למי זה מתאים במיוחד?
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="1fdfqm">
+                <div class="bg-brand-bg p-8 rounded-2xl border-t-4 border-green-500 shadow-lg" id="m5d6f7">
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-2" id="bp9zvx">
+                        <span class="text-green-500" id="ti8zyj">✓</span> השירות הזה בשבילך אם:
+                    </h3>
+                    <p class="text-slate-300 leading-relaxed text-lg text-white" id="onfsrc">
+                        אתה בעל עסק קטן או בינוני שמקבל פניות שוטפות מלקוחות. אתה מבין את הערך של אוטומציה ורוצה לחסוך זמן וכסף. אתה מחפש פתרון ש"פשוט עובד" בלי שתצטרך להיות מומחה טכני. <strong class="text-green-400" id="m6d9k0">חשוב לך לתת שירות מעולה</strong> ומהיר, אבל אין לך משאבים להחזיק צוות שירות 24/7.
+                    </p>
+                </div>
+                <div class="bg-brand-bg p-8 rounded-2xl border-t-4 border-red-500 shadow-lg" id="d1btav">
+                    <h3 class="text-2xl font-bold text-white mb-6 flex items-center gap-2" id="2x8sc7">
+                        <span class="text-red-500" id="1hff41">✕</span> השירות הזה כנראה לא בשבילך אם:
+                    </h3>
+                    <p class="text-slate-300 leading-relaxed text-lg text-white" id="numfz2">
+                        אתה מחפש פתרון קסם טכנולוגי שיחליף חשיבה אסטרטגית. העסק שלך לא מקבל פניות באופן שוטף, או שאתה מעדיף לנהל כל שיחה עם כל לקוח באופן אישי לחלוטין, גם במחיר של זמן יקר.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objections (FAQ) -->
+    <section class="py-24 bg-brand-bg" id="8who0i">
+        <div class="container mx-auto px-6 max-w-4xl" id="i9rw6y">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-center text-white mb-16" id="qd17za">
+                שאלות נפוצות שאולי יש לך
+            </h2>
+            <div class="space-y-4" id="dgyjt5">
+                <details class="bg-brand-card p-6 rounded-2xl border border-white/10 group cursor-pointer marker:content-[&#39;&#39;]" id="klm2dd" open="">
+                    <summary class="font-bold list-none flex justify-between items-center text-lg md:text-xl text-white" id="z98qvh">
+                        <span id="kbiwog">"אולי זה ירגיש רובוטי מדי והלקוחות שלי לא יאהבו את זה?"</span>
+                        <span class="text-brand-neonCyan text-2xl group-open:rotate-45 transition-transform duration-300" id="aqodmf">+</span>
+                    </summary>
+                    <div class="pt-6 text-slate-300 leading-relaxed text-lg" id="6hetxr">
+                        זו דאגה מובנת. בדיוק בגלל זה אנחנו לא בונים "בוט", אלא "סוכן". בתהליך האפיון אנחנו לומדים את שפת המותג שלך, את סגנון הדיבור ואת האישיות של העסק. המטרה היא שהלקוח ירגיש שהוא מדבר עם נציג שירות אדיב ויעיל, שלא במקרה זמין 24/7.
+                    </div>
+                </details>
+                
+                <details class="bg-brand-card p-6 rounded-2xl border border-white/10 group cursor-pointer marker:content-[&#39;&#39;]" id="f0qtbm">
+                    <summary class="font-bold list-none flex justify-between items-center text-lg md:text-xl text-white" id="z5ewyl">
+                        <span id="u9knz8">"מה אם אשלם ובסוף לא אצליח להפעיל את זה? זה לא מסובך מדי?"</span>
+                        <span class="text-brand-neonCyan text-2xl group-open:rotate-45 transition-transform duration-300" id="dvbdfa">+</span>
+                    </summary>
+                    <div class="pt-6 text-slate-300 leading-relaxed text-lg" id="l7i672">
+                        ממש לא. כל התהליך הטכני מתבצע על ידינו. אנחנו בונים, מגדירים, מטמיעים ומוודאים שהכל עובד בצורה מושלמת. בנוסף, אתה מקבל חודש שלם של <strong class="text-white" id="abwwde">ליווי ותמיכה מלאים</strong> כחלק מהחבילה, כדי להבטיח שהמעבר יהיה חלק ונטול דאגות.
+                    </div>
+                </details>
+
+                <details class="bg-brand-card p-6 rounded-2xl border border-white/10 group cursor-pointer marker:content-[&#39;&#39;]" id="kwihke">
+                    <summary class="font-bold list-none flex justify-between items-center text-lg md:text-xl text-white" id="aopzv6">
+                        <span id="v8e8l9">"אני חושש לתת ל-AI לענות בשמי. מה אם הוא יגיד משהו לא נכון?"</span>
+                        <span class="text-brand-neonCyan text-2xl group-open:rotate-45 transition-transform duration-300" id="8n32w9">+</span>
+                    </summary>
+                    <div class="pt-6 text-slate-300 leading-relaxed text-lg" id="ac8t3a">
+                        הסוכן עובד על בסיס מאגר המידע המדויק שאתה מספק לו. הוא לא ממציא תשובות. לפני ההשקה, אנחנו מבצעים יחד איתך סדרת בדיקות מקיפה כדי לוודא שכל התשובות מדויקות ומתאימות לרוח העסק שלך. <strong class="text-white" id="i3kfa3">יש לך שליטה מלאה</strong> על המידע שהסוכן מספק.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Guarantee -->
+    <section class="py-16 bg-gradient-card" id="of8xem">
+        <div class="container mx-auto px-6" id="y0k24d">
+            <div class="max-w-4xl mx-auto bg-brand-bg rounded-3xl border border-brand-neonCyan p-8 md:p-12 text-center relative overflow-hidden" id="fmiozk">
+                <div class="absolute inset-0 bg-brand-neonCyan/5" id="jmp32f"></div>
+                <div class="relative z-10" id="ntd0xo">
+                    <div class="w-20 h-20 mx-auto bg-brand-card rounded-full flex items-center justify-center border-2 border-brand-neonCyan mb-6 shadow-neon-cyan" id="u7vfrz">
+                        <svg class="w-10 h-10 text-brand-neonCyan" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="1kuukr"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" id="ybn25d"></path></svg>
+                    </div>
+                    <h2 class="text-2xl md:text-3xl font-heading font-bold text-white mb-6" id="60ktl0">
+                        ההשקעה שלך בטוחה עם ליווי ותמיכה מלאים לחודש הראשון
+                    </h2>
+                    <p class="text-lg text-slate-300 leading-relaxed text-white" id="zedpit">
+                        אנחנו כל כך בטוחים בערך שבוטינה תכניס לעסק שלך, שאנחנו לוקחים את כל הסיכון עלינו. ברכישת כל חבילה, אתה מקבל אוטומטית <strong class="text-brand-neonCyan" id="wq898p">חודש שלם של ליווי אישי, תמיכה טכנית ואופטימיזציה</strong> ללא עלות נוספת. אנחנו נהיה שם איתך כדי לוודא שהסוכן עובד בצורה מושלמת ומשיג את התוצאות שרצית.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section id="schedule" class="py-32 relative overflow-hidden bg-brand-bg text-center">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-brand-neonPurple/10 pointer-events-none" id="efcm6k"></div>
+        <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full max-w-2xl h-64 bg-brand-neonPink/20 blur-[100px] pointer-events-none rounded-full" id="26st30"></div>
+        
+        <div class="container mx-auto px-6 relative z-10" id="vden6z">
+            <h2 class="text-4xl md:text-6xl font-heading font-black text-white mb-6" id="d0d2pi">
+                מוכן להפסיק לעבוד קשה<br id="4lnzkj"> ולהתחיל <span class="text-gradient" id="va3sa8">לעבוד חכם?</span>
+            </h2>
+            <p class="text-xl md:text-2xl text-slate-300 mb-12 max-w-3xl mx-auto leading-relaxed text-white" id="9kn6a6" style="text-align: center;">הגיע הזמן להפסיק לבזבז את הזמן שלך על משימות ש-AI יכול לעשות טוב יותר, מהר יותר ובזול יותר. קבע עכשיו שיחת אפיון קצרה, ללא התחייבות, וגלה איך סוכן AI יכול לשנות את דרך העבודה שלך ולשחרר אותך לצמיחה.</p>
+            
+            <div class="flex flex-col items-center justify-center" id="3vn6us">
+                <!-- Fillout popup form trigger button -->
+                <button class="inline-flex justify-center items-center px-10 py-6 text-2xl font-black text-white bg-gradient-primary rounded-full shadow-[0_0_40px_rgba(255,0,127,0.6)] hover:shadow-[0_0_60px_rgba(255,0,127,0.9)] transition-all transform hover:-translate-y-2 mb-6 w-full sm:w-auto" id="46oyr7" data-selected-element="true" data-fillout-id="fVL9wKMFdaus" data-fillout-embed-type="popup" data-fillout-dynamic-resize data-fillout-inherit-parameters data-fillout-popup-size="medium" style="border: none; cursor: pointer;">
+                    לחץ כאן לקביעת שיחת אפיון ללא התחייבות
+                </button>
+                <p class="text-slate-400 font-medium" id="v78mln">ההשקעה הבטוחה שלך בעתיד העסק מתחילה כאן.</p>
+                <script src="https://server.fillout.com/embed/v1/"></script>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="py-20 bg-brand-card border-t border-white/10 relative overflow-hidden" id="newsletter-section">
+        <div class="absolute inset-0 bg-gradient-to-b from-brand-neonPurple/5 to-transparent pointer-events-none" id="hw3ean"></div>
+        <div class="container mx-auto px-6 relative z-10 max-w-2xl" id="95ksyf">
+            <div class="text-center mb-10" id="os7chm">
+                <h2 class="text-3xl md:text-4xl font-heading font-black text-white mb-3" id="syht4r">
+                    הצטרפו לרשימת התפוצה שלנו ✉️
+                </h2>
+                <p class="text-slate-300 text-lg" id="pv524m">קבלו טיפים, עדכונים וחדשות ישירות לתיבת הדואר שלכם</p>
+            </div>
+            <form id="newsletter-form" class="flex flex-col gap-4">
+                <input type="text" id="nl-name" name="name" placeholder="השם שלכם" required="" class="w-full px-5 py-4 rounded-xl bg-brand-bg border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-neonCyan transition text-right">
+                <input type="email" id="nl-email" name="email" placeholder="כתובת המייל שלכם" required="" class="w-full px-5 py-4 rounded-xl bg-brand-bg border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-neonCyan transition text-right">
+                <textarea id="nl-message" name="message" placeholder="השאירו הודעה (אופציונלי)" rows="3" class="w-full px-5 py-4 rounded-xl bg-brand-bg border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-brand-neonCyan transition text-right resize-none"></textarea>
+                <label class="flex items-center gap-3 cursor-pointer text-slate-300 text-sm" id="msdv08">
+                    <input type="checkbox" id="nl-consent" name="consent" required="" class="w-5 h-5 rounded accent-brand-neonPink flex-shrink-0">
+                    <span id="fqwjvl">אני מאשר/ת קבלת עדכונים וטיפים לכתובת המייל שלי</span>
+                </label>
+                <button type="submit" id="nl-submit" class="w-full py-4 px-8 rounded-xl font-bold text-lg text-white transition-all" style="background: linear-gradient(to left, #FF007F, #8A2BE2); box-shadow: 0 0 25px rgba(255,0,127,0.4);">הרשמה לרשימת התפוצה</button>
+                <p id="nl-success" class="text-center text-brand-neonCyan font-semibold hidden">תודה! נרשמתם בהצלחה 🎉</p>
+                <p id="nl-error" class="text-center text-red-400 font-semibold hidden">משהו השתבש, נסו שוב בבקשה</p>
+            </form>
+        </div>
+    </section>
+
+    <script id="xxtiiq">
+        document.getElementById('newsletter-form').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const btn = document.getElementById('nl-submit');
+            btn.disabled = true;
+            btn.textContent = 'שולח...';
+            const payload = {
+                name: document.getElementById('nl-name').value,
+                email: document.getElementById('nl-email').value,
+                message: document.getElementById('nl-message').value,
+                consent: document.getElementById('nl-consent').checked
+            };
+            try {
+                const response = await fetch('https://hook.eu1.make.com/ers5njkbm5qov4ajybg6swjxjjsbsgrj', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                if (response.status === 200) {
+                    document.getElementById('nl-success').classList.remove('hidden');
+                    document.getElementById('nl-error').classList.add('hidden');
+                    document.getElementById('newsletter-form').reset();
+                } else {
+                    document.getElementById('nl-error').classList.remove('hidden');
+                    document.getElementById('nl-success').classList.add('hidden');
+                }
+            } catch (err) {
+                document.getElementById('nl-error').classList.remove('hidden');
+                document.getElementById('nl-success').classList.add('hidden');
+            }
+            btn.disabled = false;
+            btn.textContent = 'הרשמה לרשימת התפוצה';
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer class="bg-brand-card py-10 border-t border-white/10 text-center relative z-10 text-slate-400" id="r24ad2">
+        <div class="container mx-auto px-6" id="5jzgpd">
+            
+            <p class="mb-2" id="y1ktb5" style="text-align: center;">© 2026 swenlly. כל הזכויות שמורות.</p>
+            <p class="text-sm" id="69d6pt" style="text-align: center;"> Developed by Swenlly Automations</p>
+        </div>
+            <!-- Chat Widget -->
+    <div id="chatWidget" class="fixed bottom-6 right-6 z-50">
+        <!-- Chat Button -->
+        <button id="chatButton" class="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center text-white shadow-neon-pink hover:scale-110 transition-transform duration-300">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" id="8md8dl">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" id="5wgvhz"></path>
+            </svg>
+        </button>
+
+        <!-- Chat Window -->
+        <div id="chatWindow" class="absolute bottom-20 right-0 w-96 h-[500px] bg-brand-card rounded-3xl shadow-2xl border border-brand-neonPink/30 flex flex-col overflow-hidden hidden animate-scale-in">
+            <!-- Chat Header -->
+            <div class="bg-gradient-primary p-4 flex items-center justify-between" id="maxfaj">
+                <div class="flex items-center gap-3" id="blqws3">
+                    <div class="w-10 h-10 bg-white/20 rounded-full flex items-center justify-center" id="lh9f62">
+                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" id="hj1n6f">
+                            <path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" id="stllix"></path>
+                        </svg>
+                    </div>
+                    <div id="ouszmw">
+                        <h3 class="font-bold text-white" id="j37vwx">בוטינה</h3>
+                        <p class="text-xs text-white/80" id="l12u6c">סוכנת AI</p>
+                    </div>
+                </div>
+                <button id="closeChat" class="text-white hover:scale-110 transition-transform">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="n65ncm">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" id="qeosik"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Chat Messages -->
+            <div id="chatMessages" class="flex-1 overflow-y-auto p-4 space-y-3 bg-brand-bg/50 animate-stagger">
+                <div class="flex gap-2 animate-slide-in-right" id="kecrvc">
+                    <div class="w-10 h-10 rounded-full flex-shrink-0 bg-gradient-to-br from-slate-600 to-slate-800 flex items-center justify-center border-2 border-brand-neonPurple" id="5y9atx">
+                        <svg width="28" height="28" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7">
+                            <rect x="6" y="6" width="8" height="8" fill="white" rx="1"/>
+                            <rect x="16" y="6" width="8" height="8" fill="white" rx="1"/>
+                            <rect x="6" y="16" width="8" height="8" fill="white" rx="1"/>
+                            <rect x="16" y="16" width="8" height="8" fill="white" rx="1"/>
+                        </svg>
+                    </div>
+                    <div class="bg-brand-card p-3 rounded-2xl rounded-tl-none max-w-[70%]" id="dqmhg0">
+                        <p class="text-white text-sm" id="ofu4om"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="p-4 bg-brand-card border-t border-white/10" id="praksp">
+                <form id="chatForm" class="flex gap-2">
+                    <input type="text" id="chatInput" placeholder="כתוב הודעה..." class="flex-1 bg-brand-bg text-white px-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-brand-neonPink">
+                    <button type="submit" class="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center hover:scale-110 transition-transform" id="pjn3ug">
+                        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="4d7kzf">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" id="c2mfut"></path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+
+    <!-- Animation & Image Loading Script -->
+    <script id="animations">
+        // Image loading optimization
+        document.querySelectorAll('img').forEach(img => {
+            const originalSrc = img.getAttribute('src');
+            
+            // Skip if src is invalid or missing
+            if (!originalSrc) return;
+            
+            const tempImg = new Image();
+            tempImg.onload = function() {
+                img.src = originalSrc;
+                img.classList.add('loaded');
+            };
+            tempImg.onerror = function() {
+                // Add placeholder styling on error
+                img.style.background = 'linear-gradient(90deg, rgba(138,43,226,0.1) 0%, rgba(0,240,255,0.1) 50%, rgba(138,43,226,0.1) 100%)';
+                img.style.backgroundSize = '200% 100%';
+                img.style.animation = 'shimmer 2s infinite';
+            };
+            tempImg.src = originalSrc;
+        });
+
+        // Intersection Observer for scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-slide-in-up');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections, cards, and headings
+        document.querySelectorAll('section, .bg-brand-card, h2, h3').forEach(el => {
+            if (!el.classList.contains('animate-slide-in-up')) {
+                observer.observe(el);
+            }
+        });
+
+        // Chat Widget functionality
+        document.getElementById('chatButton').addEventListener('click', function() {
+            const chatWindow = document.getElementById('chatWindow');
+            chatWindow.classList.toggle('hidden');
+        });
+
+        document.getElementById('closeChat').addEventListener('click', function() {
+            document.getElementById('chatWindow').classList.add('hidden');
+        });
+
+        // Add stagger animation to testimonials and feature cards
+        document.querySelectorAll('.grid > div, .space-y-4 > div, .space-y-6 > div').forEach((el, index) => {
+            el.style.animation = `slideInUp 0.7s ease-out ${index * 0.08}s both`;
+        });
+
+
+
+        // Page load animations
+        window.addEventListener('load', function() {
+            document.body.classList.add('animate-fade-in');
+            
+            // Stagger headings animation
+            document.querySelectorAll('h1, h2.text-3xl').forEach((heading, index) => {
+                heading.style.animation = `slideInRight 0.7s ease-out ${index * 0.12}s both`;
+            });
+        });
+    </script>
+
+    <style id="3inu60">
+        #chatMessages::-webkit-scrollbar {
+            width: 6px;
+        }
+        #chatMessages::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+        }
+        #chatMessages::-webkit-scrollbar-thumb {
+            background: #FF007F;
+            border-radius: 10px;
+        }
+
+        /* Chat message styling */
+        .chat-message {
+            display: flex;
+            gap: 0.5rem;
+            animation: slideInUp 0.4s ease-out;
+            margin-bottom: 0.75rem;
+        }
+
+        .chat-message.user-message {
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        .chat-message.bot-message {
+            justify-content: flex-start;
+        }
+
+        .chat-avatar {
+            width: 2rem;
+            height: 2rem;
+            border-radius: 9999px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .chat-avatar.user {
+            background: linear-gradient(135deg, #00F0FF, #FF007F);
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.5);
+        }
+
+        .chat-avatar.bot {
+            background: linear-gradient(135deg, #FF007F, #8A2BE2);
+            box-shadow: 0 0 15px rgba(255, 0, 127, 0.5);
+        }
+
+        .chat-bubble {
+            max-width: 80%;
+            padding: 0.75rem;
+            border-radius: 1rem;
+            word-wrap: break-word;
+            line-height: 1.5;
+            font-size: 0.875rem;
+            animation: slideInUp 0.4s ease-out;
+        }
+
+        .chat-bubble.user {
+            background: linear-gradient(135deg, rgba(0, 240, 255, 0.15), rgba(0, 240, 255, 0.05));
+            border: 1px solid rgba(0, 240, 255, 0.3);
+            border-radius: 1rem 0 1rem 1rem;
+            color: #e0f2fe;
+        }
+
+        .chat-bubble.bot {
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.15), rgba(255, 0, 127, 0.05));
+            border: 1px solid rgba(138, 43, 226, 0.3);
+            border-radius: 0 1rem 1rem 1rem;
+            color: #e2e8f0;
+        }
+
+        /* Typing animation */
+        @keyframes typewriter {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        .typing-animation {
+            animation: typewriter 0.03s steps(1, end) forwards;
+            border-right: 2px solid #00F0FF;
+            overflow: hidden;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+
+        /* Cursor blink */
+        @keyframes blink-cursor {
+            0%, 49% {
+                border-right-color: #00F0FF;
+            }
+            50%, 100% {
+                border-right-color: transparent;
+            }
+        }
+
+        .typing-cursor {
+            animation: blink-cursor 0.7s step-end infinite;
+        }
+
+        /* Smooth message slide in */
+        @keyframes messageSlideIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .message-appear {
+            animation: messageSlideIn 0.3s ease-out;
+        }
+    </style>
+
+    <script id="i27631">
+        const chatButton = document.getElementById('chatButton');
+        const chatWindow = document.getElementById('chatWindow');
+        const closeChat = document.getElementById('closeChat');
+        const chatForm = document.getElementById('chatForm');
+        const chatInput = document.getElementById('chatInput');
+        const chatMessages = document.getElementById('chatMessages');
+        const webhookUrl = 'https://hook.eu1.make.com/897lc6m4nmls16jfxqoh01wp3bbwc2bc';
+
+        let messageCount = 0;
+        const MAX_MESSAGES = 25;
+
+        // Generate unique conversation ID for this user session
+        let conversationId = localStorage.getItem('chatConversationId');
+        if (!conversationId) {
+            conversationId = 'conv_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+            localStorage.setItem('chatConversationId', conversationId);
+        }
+
+        // Auto-open chat after 3 seconds
+        setTimeout(() => {
+            if (chatWindow.classList.contains('hidden')) {
+                chatWindow.classList.remove('hidden');
+                chatInput.focus();
+            }
+        }, 3000);
+
+        // Initialize first message with thinking animation
+        setTimeout(() => {
+            const firstMsg = document.querySelector('#ofu4om');
+            if (firstMsg) {
+                // Show thinking dots for 1.5 seconds
+                firstMsg.textContent = '';
+                const dots = document.createElement('span');
+                dots.innerHTML = '<span class="thinking-dot"></span><span class="thinking-dot"></span><span class="thinking-dot"></span>';
+                firstMsg.appendChild(dots);
+                
+                // Replace with actual message after 1.5 seconds
+                setTimeout(() => {
+                    firstMsg.textContent = '';
+                    typeText(firstMsg, "שלום! אני בוטינה, איך אוכל לעזור לך היום?", 30);
+                }, 1500);
+            }
+        }, 500);
+
+        // Toggle chat window
+        chatButton.addEventListener('click', () => {
+            chatWindow.classList.toggle('hidden');
+            if (!chatWindow.classList.contains('hidden')) {
+                chatInput.focus();
+            }
+        });
+
+        closeChat.addEventListener('click', () => {
+            chatWindow.classList.add('hidden');
+        });
+
+        // Handle form submission
+        chatForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const message = chatInput.value.trim();
+            if (!message) return;
+
+            // Check message limit
+            if (messageCount >= MAX_MESSAGES) {
+                addMessage('הגעת למספר ההודעות המקסימלי (25 הודעות)', 'bot');
+                return;
+            }
+
+            // Add user message to chat
+            addMessage(message, 'user');
+            messageCount++;
+            chatInput.value = '';
+
+            // Show typing indicator
+            const typingId = addTypingIndicator();
+
+            try {
+                // Send to webhook
+                const response = await fetch(webhookUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        message: message,
+                        conversationId: conversationId
+                    })
+                });
+
+                // Remove typing indicator
+                removeTypingIndicator(typingId);
+
+                // Get response text
+                const responseText = await response.text();
+                console.log('Server response (raw):', responseText);
+
+                // Try to parse as JSON, if fails use as text
+                let botReply = '';
+                try {
+                    const data = JSON.parse(responseText);
+                    console.log('Parsed JSON:', data);
+
+                    // Handle different response formats
+                    if (typeof data === 'string') {
+                        botReply = data;
+                    } else if (data.response) {
+                        botReply = data.response;
+                    } else if (data.message) {
+                        botReply = data.message;
+                    } else if (data.reply) {
+                        botReply = data.reply;
+                    } else if (data.text) {
+                        botReply = data.text;
+                    } else {
+                        // Show the entire response
+                        botReply = JSON.stringify(data, null, 2);
+                    }
+                } catch (parseError) {
+                    // If not JSON, use the text as-is
+                    console.log('Not JSON, using raw text');
+                    botReply = responseText;
+                }
+
+                // Always show something in the chat
+                if (!botReply || botReply.trim() === '') {
+                    botReply = 'התקבלה תשובה ריקה מהשרת';
+                }
+
+                console.log('Bot reply to display:', botReply);
+                addMessage(botReply, 'bot');
+            } catch (error) {
+                removeTypingIndicator(typingId);
+                console.error('Chat error:', error);
+                addMessage('שגיאה: ' + error.message, 'bot');
+            }
+        });
+
+        function addMessage(text, type) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = 'chat-message ' + (type === 'user' ? 'user-message' : 'bot-message');
+
+            const avatar = document.createElement('div');
+            avatar.className = 'chat-avatar ' + (type === 'user' ? 'user' : 'bot');
+            avatar.innerHTML = type === 'user' 
+                ? '<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"></path></svg>'
+                : '<svg width="24" height="24" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><rect x="6" y="6" width="8" height="8" fill="white" rx="1"/><rect x="16" y="6" width="8" height="8" fill="white" rx="1"/><rect x="6" y="16" width="8" height="8" fill="white" rx="1"/><rect x="16" y="16" width="8" height="8" fill="white" rx="1"/></svg>';
+
+            const bubble = document.createElement('div');
+            bubble.className = 'chat-bubble ' + (type === 'user' ? 'user' : 'bot');
+            bubble.classList.add('message-appear');
+
+            const text_p = document.createElement('p');
+            text_p.className = 'text-sm';
+            text_p.style.margin = '0';
+            
+            if (type === 'bot') {
+                // Add typing animation for bot messages
+                text_p.classList.add('typing-animation', 'typing-cursor');
+                typeText(text_p, text, 30); // 30ms per character
+            } else {
+                // User messages appear instantly
+                text_p.textContent = text;
+            }
+
+            bubble.appendChild(text_p);
+            messageDiv.appendChild(avatar);
+            messageDiv.appendChild(bubble);
+            chatMessages.appendChild(messageDiv);
+
+            // Scroll to bottom
+            setTimeout(() => {
+                chatMessages.scrollTop = chatMessages.scrollHeight;
+            }, 10);
+        }
+
+        // Typing animation function
+        function typeText(element, text, speed = 30) {
+            let index = 0;
+            element.textContent = '';
+            
+            function type() {
+                if (index < text.length) {
+                    element.textContent += text.charAt(index);
+                    index++;
+                    setTimeout(type, speed);
+                } else {
+                    // Remove cursor when done typing
+                    element.classList.remove('typing-cursor');
+                }
+            }
+            
+            type();
+        }
+
+        function addTypingIndicator() {
+            const typingDiv = document.createElement('div');
+            typingDiv.id = 'typing-indicator';
+            typingDiv.className = 'chat-message bot-message';
+            
+            const avatar = document.createElement('div');
+            avatar.className = 'chat-avatar bot';
+            avatar.innerHTML = '<svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20"><path d="M2.5 5A1.5 1.5 0 014 3.5h3A1.5 1.5 0 0110 5v3A1.5 1.5 0 018.5 9.5H5A1.5 1.5 0 013.5 8V5zM12 3.5a1.5 1.5 0 011.5-1.5h3A1.5 1.5 0 0118 5v3a1.5 1.5 0 01-1.5 1.5h-3A1.5 1.5 0 0112 8V5zM3.5 12a1.5 1.5 0 00-1.5 1.5v3A1.5 1.5 0 014 18h3a1.5 1.5 0 001.5-1.5v-3A1.5 1.5 0 017 12H3.5zM12 12a1.5 1.5 0 00-1.5 1.5v3a1.5 1.5 0 001.5 1.5h3a1.5 1.5 0 001.5-1.5v-3a1.5 1.5 0 00-1.5-1.5h-3z"></path></svg>';
+            
+            const bubble = document.createElement('div');
+            bubble.className = 'chat-bubble bot';
+            bubble.innerHTML = `
+                <div class="flex gap-1">
+                    <div class="w-2 h-2 bg-white/60 rounded-full animate-bounce" style="animation-delay: 0ms"></div>
+                    <div class="w-2 h-2 bg-white/60 rounded-full animate-bounce" style="animation-delay: 150ms"></div>
+                    <div class="w-2 h-2 bg-white/60 rounded-full animate-bounce" style="animation-delay: 300ms"></div>
+                </div>
+            `;
+            
+            typingDiv.appendChild(avatar);
+            typingDiv.appendChild(bubble);
+            chatMessages.appendChild(typingDiv);
+            chatMessages.scrollTop = chatMessages.scrollHeight;
+            return 'typing-indicator';
+        }
+
+        function removeTypingIndicator(id) {
+            const indicator = document.getElementById(id);
+            if (indicator) {
+                indicator.remove();
+            }
+        }
+    </script>
+
+
+
+
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="ixvl67"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="ltmuwa"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="sixou3"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="pegx68"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="wsfe1w"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="azwicn"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="v3tq1t"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="31it5z"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="gf5xz6"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="0sh3f2"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="i6ozgc"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="fu6t1w"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="lo5o9o"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="n337li"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="e8cskp"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="n9ego8"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="meiks1"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="9uhh34"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="40jnct"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="oig6he"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="5xza3g"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="q0ylsm"></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async="" id="x27b7q"></script><script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async="" id="rb8xyv"></script>
+
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/go-payment.js.הורדה" type="text/javascript" async=""></script>
+<script src="./בוטינה - סוכנת ה-AI לעסק שלך_files/popup-card-init.js.הורדה" type="text/javascript" async=""></script>
+<div id="y-accessibility-shadow-host"><template shadowrootmode="open"><link rel="stylesheet" href="./בוטינה - סוכנת ה-AI לעסק שלך_files/yaccessibility.css">
+</div>
+</div></body>
+
+<script>
+document.getElementById("newsletter-form").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const success = document.getElementById("nl-success");
+    const error = document.getElementById("nl-error");
+
+    // איסוף נתונים מהטופס
+    const data = {
+        name: document.getElementById("nl-name").value,
+        email: document.getElementById("nl-email").value,
+        message: document.getElementById("nl-message").value,
+        consent: document.getElementById("nl-consent").checked
+    };
+
+    // איפוס הודעות
+    success.classList.add("hidden");
+    error.classList.add("hidden");
+
+    try {
+        const response = await fetch("https://hook.eu1.make.com/ers5njkbm5qov4ajybg6swjxjjsbsgrj", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        if (response.ok) {
+            success.classList.remove("hidden");
+        } else {
+            error.classList.remove("hidden");
+        }
+
+    } catch (err) {
+        error.classList.remove("hidden");
+    }
+});
+</script>
+
